@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<setting>
+    <reaction>
+        <type id="like">1</type>
+        <type id="love">2</type>
+        <type id="haha">4</type>
+        <type id="wow">3</type>
+        <type id="sad">7</type>
+        <type id="angry">8</type>
+    </reaction>
+    <URL>
+        <Link id="like_posts">/ufi/reaction/?dpr=1</Link>
+        <Link id="cmt_posts">/ufi/add/comment/?dpr=1</Link>
+        <Link id="like_pages">/ajax/pages/fan_status.php?dpr=1</Link>
+        <Link id="add_friends">/ajax/add_friend/action.php?dpr=1</Link>
+        <Link id="follow_friends">/ajax/follow/follow_profile.php?dpr=1</Link>
+    </URL>
+</setting>
